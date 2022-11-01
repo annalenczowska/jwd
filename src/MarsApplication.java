@@ -34,8 +34,10 @@ public class MarsApplication {
         opportunity.showAttributes();
 
 
-        System.out.println("Check status");
+        System.out.println("----------------------");
+        System.out.println("Status robota spirit:");
         spirit.checkStatus();
+        System.out.println("Status robota opportunity:");
         opportunity.checkStatus();
 
     }

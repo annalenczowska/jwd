@@ -1,4 +1,5 @@
 import java.text.DecimalFormat;
+import java.util.Locale;
 
 public class Vars {
 
@@ -42,7 +43,12 @@ public class Vars {
 
         double aa = 2.432E-17;
         System.out.println(aa);
-        //System.out.printf(new Locale("us"), "%.20f", aa);
+        System.out.printf(new Locale("us", "us"), "%.20f", aa);
+        // pokaże nam liczbę z 20 miejscami po przecinku
+
+        System.out.println("---------------");
+
+        int jackpot = 3_500_000; // podkreślenia są ignorowane, poprawia to czytelność zapisu
 
 
         //int val = 0b101; binarnie//
@@ -53,6 +59,8 @@ public class Vars {
         boolean choosen = true;
         char key = 'a';
         String password = "hasło";
+
+        // String message = "raz\t\t dwa\t\t trzy" - tabulatory - tworzą odstępy
 
 
         String message = "Naucz się szydełkować \u2122"; //znak zastrzeżony//

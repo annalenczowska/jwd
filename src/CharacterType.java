@@ -4,6 +4,7 @@ public class CharacterType {
         showInfo('b');
         showInfo('A');
         showInfo('ą');
+        showInfo('@');
 
     }
 

@@ -1,14 +1,14 @@
 public class DataTypes {
     public static void main(String[] args) {
         //liczby całkowite
-        //byte - 1    00000000
-        //short - 2   00000000 00000000
-        //int - 4     00000000 00000000 00000000 00000000
-        //long - 8    00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+        //byte - 1 bajt   00000000
+        //short - 2 bajty   00000000 00000000
+        //int - 4 bajty    00000000 00000000 00000000 00000000
+        //long - 8 bajtów   00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
 
         //domyślnie liczby całkowite traktowane są jako int
         System.out.println(2423);
-        System.out.println(2423468832L);
+        System.out.println(2423468832L); //trzeba dopisać L aby było jasne, że ta liczba to long
 
         byte b = - 120;  //może być od -128 do 128
         short s = 31678;
@@ -23,7 +23,7 @@ public class DataTypes {
         //float - 4
         //double - 8
 
-        //domyślnie liczby zmiennoprzecinkowe traktowane sąjako double
+        //domyślnie liczby zmiennoprzecinkowe traktowane są jako double
         double a = 34.35;
         float f = 15.12f;
         double d = 235667433.36677433;  // w danych bankowych, finansowych nie korzystać z typu double bo może powodować zaokrąglenia
