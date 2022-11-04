@@ -8,7 +8,7 @@ public class weather {
         fah = fah / 9;
         fah = fah * 5;
 
-        System.out.println(fah + " stopni Celsjusza\n");
+        System.out.println(fah + " stopni Celsjusza\n");   // /n to łamanie linii na końcu
 
         float cel = 33;
         System.out.println(cel + " stopni Celsjusza to ...");

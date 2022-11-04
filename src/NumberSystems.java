@@ -11,7 +11,7 @@ public class NumberSystems {
         //47 -> (4 * 8^1) + (7 * 8^0) = 32 + 7 = 39
 
         //system szesnastkowy (hexadecymalny) (0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f) np a =10
-        // 3af -> (3 * 16^2) + (a * 16^1) + (f * 16^0) = (3 * 256) + (160) + (15) = 943
+        // 3af -> (3 * 16^2) + (a * 16^1) + (f * 16^0) = (3 * 256) + (160 (bo a ma wartość 10)) + (15) = 943
 
         //System.out.println(Integer.toBinaryString(5));
         //System.out.println(Integer.toOctalString(39));
@@ -46,14 +46,24 @@ public class NumberSystems {
         //System.out.println(String.format("%32s", Integer.toBinaryString(a & b)).replace(' ','0'));
 
         //suma bitowa
-        //System.out.println(a | b);  // 5
+        //System.out.println(String.format("%32s", Integer.toBinaryString(a)).replace(' ','0'));
+        //System.out.println(String.format("%32s", Integer.toBinaryString(b)).replace(' ','0'));
+        //System.out.println("---------------------");
+        //System.out.println(String.format("%32s", Integer.toBinaryString(a | b)).replace(' ','0'));
+        // wynik 5
 
-        //XOR
-        // 1 1 -> 0
-        // 1 0 ->
+        //XOR - ^
+        // 1 1 -> 0  bity są identyczne
+        // 1 0 -> 1  biy są różne
+        // 0 1 -> 1
+        // 0 0 -> 0
+        //System.out.println(String.format("%32s", Integer.toBinaryString(a)).replace(' ','0'));
+        //System.out.println(String.format("%32s", Integer.toBinaryString(b)).replace(' ','0'));
+        //System.out.println("---------------------");
+        //System.out.println(String.format("%32s", Integer.toBinaryString(a ^ b)).replace(' ','0'));
 
         // >>
-        // 0101 -> 0001
+        // 0101 -> 0001  przesuwamy 1 o dwa miejsca w prawo
 
         //<<
         //0101 -> 010100
