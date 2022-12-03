@@ -8,9 +8,9 @@ public class StringChecker {
         System.out.println("Znak na pozycji 6: " + str.charAt(6));
         System.out.println("Znak na pozycji 6: " + str.charAt(0));   //indeksowanie od pozycji 0
         System.out.println("Fragment tekstu od znaku 10 do znaku 16: " + str.substring(10,16));
-        System.out.println("Indeks pierwszej litery 't':" + str.indexOf('t'));
+        System.out.println("Indeks pierwszej litery 't': " + str.indexOf('t'));
         System.out.println("Indeks początku podtekstu \"długi\": " + str.indexOf("długi"));
-        System.out.println("Tekst zapisany wielkimi literami: " + str.toUpperCase(Locale.ROOT));
+        System.out.println("Tekst zapisany wielkimi literami: " + str.toUpperCase());
 
 
     }

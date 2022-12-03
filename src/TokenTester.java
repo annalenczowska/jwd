@@ -18,7 +18,7 @@ public class TokenTester {
         System.out.println();
 
         String quote2 = "RTH@75,00@0,22";
-        str2 = new StringTokenizer(quote2, "@");
+        str2 = new StringTokenizer(quote2, "@");  // definicja znaku rozdzielającego @, delimiter - rozdzielacz
         System.out.println("Token 1: " + str2.nextToken());
         System.out.println("Token 2: " + str2.nextToken());
         System.out.println("Token 3: " + str2.nextToken());

@@ -13,21 +13,8 @@ public class lab5 {
         kwota = kwota - 1500F;
         System.out.println("Po drugim roku inwestycja warta jest " + kwota + "zł");
 
-        kwota = kwota * 0.12F;
+        kwota = kwota + (kwota * 0.12F);
         System.out.println("Po trzecim roku inwestycja warta jest " + kwota + "zł");
-
-
-        System.out.println();
-        System.out.println("Zadanie 2");
-
-        int i = 35;
-
-        boolean test3 = (i % 7) == 0 && (i % 5) == 0;
-        System.out.println(test3);
-
-        System.out.println("Czy liczba " + i + " dzieli się przez 5 i 7 jednocześnie? - " + test3);
-
-
 
     }
 }
