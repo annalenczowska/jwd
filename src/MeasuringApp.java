@@ -7,7 +7,7 @@ public class MeasuringApp {
 
         System.out.println("Height: " + box.height);
         System.out.println("Width: " + box.width);
-        System.out.println("Depth: " +box.depth);
+        System.out.println("Depth: " + box.depth);
 
     }
 

@@ -7,10 +7,10 @@ public class RefTester {
         // System.out.println(str1.getClass().getSimpleName());  //określenie klasy
 
         // Object obj = new Object();
-        //System.out.println("Teksas" instanceof String);
+        //System.out.println("Teksas" instanceof String);    sprawdzamy czy napis "Teksas" jest instancją klasy string
         //System.out.println("Teksas" instanceof Object);
 
-        Point pt1, pt2;
+        Point pt1, pt2;     //wywołujemy klasę Point
         pt1 = new Point(100,100);
         pt2 = pt1;  //mamy tylko jeden obiekt, mamy dwie referencje do tego samego obiektu
 

@@ -1,33 +1,38 @@
 //import java.math.BigInteger;
 
-//public class Loops {
-    //public static void main(String[] args) {
+public class Loops {
+    public static void main(String[] args) {
 
-        // int x = 5;
-        //{ //początek bloku
-        //  int y = 10;
-        // y = x + y;
-        // System.out.println(y);
-        // } //koniec bloku
+        int n = 5;
+        { //początek bloku
+        int m = 10; //ta zmienna lokalna jest widoczna tylko w tym bloku
+        m = n + m;
+        System.out.println(m);
+        } //koniec bloku
 
-       /* int x = 2;
+
+
+        // Instrukcja IF
+        int x = 2;
         if (x > 2) {
             System.out.println("Jest większe od 2");
         } else if (x < 2) {
             System.out.println("Nie jest większe od 2");
         } else {
             System.out.println("Jest równe 2");
-        }*/
+        }
 
-        // Instrukcja warunkowa Switch
-        //byte i Byte
-        //short i Short
-        //int i Integer
-        //char i Character
-        //enum
-        //String
 
-        /*char grade = 'A';
+
+        // Instrukcja warunkowa Switch działa na takich typach:
+        //- byte i Byte
+        //- short i Short
+        //- int i Integer
+        //- char i Character
+        //- enum - enumeracja
+        //- String
+
+        char grade = 'A';
         switch (grade) {
             case 'A':
                 System.out.println("Wspaniale!");   // w instrukcji switch po każdym przypadku trzeba stosować instrukcję break
@@ -40,8 +45,8 @@
                 System.out.println("Mogło być lepiej!");
                 break;
             default:
-                System.out.println("Rozważ oszukiwanie");*/
-        //}
+                System.out.println("Rozważ oszukiwanie");
+        }
 
        /* int myScore = 98;
         int yourScore =102;
@@ -93,5 +98,5 @@
         } while (i < 100);*/
 
 
-   // }
-//}
+   }
+}
