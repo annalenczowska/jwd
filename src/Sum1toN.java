@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Sum1toN {
     public static void main(String[] args) {
         System.out.println("n = ");
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);       //funkcja Scanner z pakietu Java Utile, wskazujemy miejsce pobierania danych
         int n = scanner.nextInt();
         int number = 1;
         int sum = 1;
