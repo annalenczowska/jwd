@@ -13,9 +13,9 @@ public class NumberSystems {
         //system szesnastkowy (hexadecymalny) (0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f) np a =10
         // 3af -> (3 * 16^2) + (a * 16^1) + (f * 16^0) = (3 * 256) + (160 (bo a ma wartość 10)) + (15) = 943
 
-        //System.out.println(Integer.toBinaryString(5));
-        //System.out.println(Integer.toOctalString(39));
-        //System.out.println(Integer.toHexString(943));
+        System.out.println(Integer.toBinaryString(5));
+        System.out.println(Integer.toOctalString(39));
+        System.out.println(Integer.toHexString(943));
 
         //8421
         //1011 = 8 + 0 + 2 + 1 = 11
@@ -32,18 +32,17 @@ public class NumberSystems {
         // >> - przesunięcie w prawo
         // << - przesunięcie w lewo
 
-        //int a = 1; // 0 0 0 1
-        //int b = 5; // 0 1 0 1
-
-
-        // mnożymy    0 0 0 1
+        int a = 1; //     0  0  0  1
+        int b = 5; //     0  1  0  1
+        //                  ----------
+        // mnożymy  a & b   0  0  0  1
 
         //System.out.println(a & b);
 
-        //System.out.println(String.format("%32s", Integer.toBinaryString(a)).replace(' ','0'));
-        //System.out.println(String.format("%32s", Integer.toBinaryString(b)).replace(' ','0'));
-        //System.out.println("---------------------");
-        //System.out.println(String.format("%32s", Integer.toBinaryString(a & b)).replace(' ','0'));
+        System.out.println(String.format("%32s", Integer.toBinaryString(a)).replace(' ','0')); //używamy metody format i metody replace
+        System.out.println(String.format("%32s", Integer.toBinaryString(b)).replace(' ','0'));
+        System.out.println("---------------------");
+        System.out.println(String.format("%32s", Integer.toBinaryString(a & b)).replace(' ','0'));
 
         //suma bitowa
         //System.out.println(String.format("%32s", Integer.toBinaryString(a)).replace(' ','0'));
@@ -53,8 +52,8 @@ public class NumberSystems {
         // wynik 5
 
         //XOR - ^
-        // 1 1 -> 0  bity są identyczne
-        // 1 0 -> 1  biy są różne
+        // 1 1 -> 0  bity są identyczne, dostajemy 0
+        // 1 0 -> 1  biy są różne, dostajemy 1
         // 0 1 -> 1
         // 0 0 -> 0
         //System.out.println(String.format("%32s", Integer.toBinaryString(a)).replace(' ','0'));
@@ -71,6 +70,11 @@ public class NumberSystems {
         //Liczby ujemne
         //System.out.println(String.format("%32s", Integer.toBinaryString(1)).replace(' ','0'));
         //System.out.println(String.format("%32s", Integer.toBinaryString(-1)).replace(' ','0'));
+        // -1
+        // 0001 czyli 1 i musimy to odwrócić
+        // 1110 + 1 a więc
+        // 1111
+
 
         //Kolejność wykonywania działań - jak w matematyce
 

@@ -11,7 +11,7 @@ public class Operators {
         System.out.println(3 / 2);
         System.out.println(3 / 2.); // kropka po 2 oznacza, że jest to literał typu double
 
-        System.out.println(5 % 2);  // modulo - reszta z dzielenia
+        System.out.println(5 % 2);  // modulo - reszta z dzielenia, 5/2 równa się dwa, reszty jest jeden - wynik 1
         System.out.println(7 % 4);
 
         int a = 5;

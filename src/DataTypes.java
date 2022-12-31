@@ -36,6 +36,7 @@ public class DataTypes {
         System.out.println('\t');
         char c = 64;
         System.out.println((int)c);
+        System.out.println(c);
 
         //Typ logiczny
         System.out.println(true);

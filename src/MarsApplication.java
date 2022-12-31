@@ -1,6 +1,6 @@
 public class MarsApplication {
     public static void main(String[] args) {
-        MarsRobot spirit = new MarsRobot();
+        MarsRobot spirit = new MarsRobot();         //pierwszy obiekt w metodzie
         spirit.status = "eksploracja";
         spirit.speed = 2;
         spirit.temperature = -60;
@@ -27,7 +27,7 @@ public class MarsApplication {
         System.out.println("----------------------");
         System.out.println("Laboratorium 2");
 
-        MarsRobot opportunity = new MarsRobot();
+        MarsRobot opportunity = new MarsRobot();                    //drugi robot w metodzie
         opportunity.status = "eksploracja";
         opportunity.speed = 3;
         opportunity.temperature = -70;

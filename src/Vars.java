@@ -41,10 +41,22 @@ public class Vars {
         System.out.println(z);
         System.out.println(y);
 
+        double k = 0.0000000000000000000000d;
+        System.out.println(k);
+        System.out.printf("%.9f", k);       //wyprintowanie 9 miejsc po przecinku
+
+        System.out.println();
+
         double aa = 2.432E-17;
         System.out.println(aa);
         System.out.printf(new Locale("us", "us"), "%.20f", aa);
         // pokaże nam liczbę z 20 miejscami po przecinku
+
+        System.out.println();
+
+
+        DecimalFormat df = new DecimalFormat("#.#########################");
+        System.out.println(df.format(aa));
 
         System.out.println("---------------");
 
