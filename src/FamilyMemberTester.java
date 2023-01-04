@@ -14,3 +14,6 @@ public class FamilyMemberTester {
 
     }
 }
+
+//zmienna surname jest dla całej klasy obiektu - jeśli zmienimy ją np poprzez dad.surname to dla matki też
+// się zmieni - bo matka jest obiektem klasy

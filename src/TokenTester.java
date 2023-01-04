@@ -7,7 +7,7 @@ public class TokenTester {
         // String name = new String ("Michael Jordan");  //inicjalizujemy wartością Michael Jordan
         // Point pt = new Point (0, 0);
 
-        StringTokenizer str1, str2;
+        StringTokenizer str1, str2;     //z pakietu Java util
 
         String quote1 = "GOOG 530,80 -9,98"; //spacja sugeruje, że to są oddzielne części
         str1 = new StringTokenizer(quote1);

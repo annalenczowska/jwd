@@ -1,4 +1,3 @@
-/*
 public class DayCounter {
     public static void main(String[] args) {
         int yearIn = 2016;
@@ -13,6 +12,7 @@ public class DayCounter {
         System.out.print(monthIn + "/" + yearIn);
         System.out.println(" ma " + countDays(monthIn, yearIn) + " dni.");  //wprowadzamy metodę countDays
     }
+
     // poza metodą main definujemy metodę statyczną countDays
     static int countDays(int month, int year) {
         int count = -1;
@@ -34,15 +34,16 @@ public class DayCounter {
             case 2:
                 if (year % 4 == 0) {
                     count = 29;
-                } else {
-                    count = 28;
                 }
-                // do sprawdzenia w domu
-                // if ((year % 100 == 0) && (year % 400 != 0)){
-                // count = 28;
+                else {
+                    count =28;
+                    }
+                // if ((year % 100 == 0) && (year % 400 != 0)) {
+                //    count = 28;
+                //}
         }
-    }
         return count;
     }
+}
 
-*/
+

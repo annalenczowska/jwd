@@ -4,7 +4,7 @@ public class RefTester {
     public static void main(String[] args) {
 
         // String str1 = "jakiś tekst";
-        // System.out.println(str1.getClass().getSimpleName());  //określenie klasy
+        // System.out.println(str1.getClass().getSimpleName());  //wyświetlamy informacje o klasie - lub getName
 
         // Object obj = new Object();
         //System.out.println("Teksas" instanceof String);    sprawdzamy czy napis "Teksas" jest instancją klasy string
