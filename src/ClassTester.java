@@ -1,11 +1,10 @@
-/*
 public class ClassTester {
     int i; //zmienna egzemplarza (pole klasy - definiowane zaraz na górze)
     static int j = 2; //zmienna klasowa (pole statyczne)
 
     public int change() {
         int k = 7;      //zmienna lokalna, zdefiniowana w ciele metody
-        return i + (k * j)
+        return i + (k * j);
     }
     public static void main(String[] dowolnaNazwa) {
 
@@ -20,5 +19,5 @@ public class ClassTester {
     }
 }
 
-class A {}      //w jednym pliku może istnieć kilka klas, ale tylko jedna może być publiczna
-*/
+//class A {}      w jednym pliku może istnieć kilka klas, ale tylko jedna może być publiczna
+

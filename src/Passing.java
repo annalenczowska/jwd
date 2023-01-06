@@ -1,4 +1,5 @@
 import java.awt.*;
+// przekazywanie argumentów do metod
 
 public class Passing {
     public static void main(String[] args) {

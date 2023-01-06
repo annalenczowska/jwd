@@ -1,5 +1,5 @@
 public class RangeLister {
-    int[] makeRange(int lower, int upper) {
+    int[] makeRange(int lower, int upper) {                 // zmienna lokalna
         int [] range = new int[(upper - lower) + 1];
         for (int i = 0; i < range.length; i++) {
             range[i] = lower++;
@@ -9,7 +9,7 @@ public class RangeLister {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {            //metoda
         int[] range;
         RangeLister rl = new RangeLister();
         range = rl.makeRange(4, 13);

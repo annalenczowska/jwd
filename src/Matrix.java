@@ -8,9 +8,9 @@ public class Matrix {
 
        for (int i = 0; i < n; i++) {
            for (int j = 1; j <= n; j++) {
-               System.out.printf("%3s", i + j + " ");
+               System.out.printf("%3s", i + j + " ");       //%3s - 3 odstępy
            }
-           System.out.println(  );
+           System.out.println(  );      //łamanie linii po każdej iteracji
        }
     }
 }

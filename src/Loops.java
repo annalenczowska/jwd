@@ -7,11 +7,10 @@ public class Loops {
 
         int n = 5;
         { //początek bloku
-        int m = 10; //ta zmienna lokalna jest widoczna tylko w tym bloku
-        m = n + m;
-        System.out.println(m);
+            int m = 10; //ta zmienna lokalna jest widoczna tylko w tym bloku
+            m = n + m;
+            System.out.println(m);
         } //koniec bloku
-
 
 
         // Instrukcja IF
@@ -23,7 +22,6 @@ public class Loops {
         } else {
             System.out.println("Jest równe 2");
         }
-
 
 
         // Instrukcja warunkowa Switch działa na takich typach:
@@ -50,12 +48,14 @@ public class Loops {
                 System.out.println("Rozważ oszukiwanie");
         }
 
+        // operator trójargumentowy
         int myScore = 98;
-        int yourScore =102;
+        int yourScore = 102;
 
         int ourBestScore = myScore > yourScore ? myScore : yourScore;
         System.out.println(ourBestScore);
 
+        // wyświetl cyfry od zero do 99
         for (int i = 1; i < 100; i++) {
             System.out.println("i = " + i);
         }
@@ -67,9 +67,9 @@ public class Loops {
 
         // szablon pętli - wpisujemy fori + tab
 
-        // wyświetlamy wszystkie cyfry:
-        /* for (int i = 0; i < 10; i++) {
-            System.out.printf("%d", i); */
+        //wyświetlamy wszystkie cyfry w jednej linii:
+        for (int i = 0; i < 10; i++) {
+            System.out.printf("%d", i);
 
 
 
@@ -83,19 +83,18 @@ public class Loops {
             System.out.printf("%d! = %s%n", number, factorial); */
 
 
+            //wartość bitów w bajcie
+            //128 64  32  16  8  4  2  1
+            //0   0   0   0   0  0  0  0
 
-        //wartość bitów w bajcie
-        //128 64  32  16  8  4  2  1
-        //0   0   0   0   0  0  0  0
-
-        for (int i = 1, sum = 1; i <= 128 ; i = i * 2, sum += i) {
-            System.out.printf("i = %D, sum = %d%n", i, sum);
-        }
+            /*for (int j = 1, sum = 1; j <= 128; i = i * 2, sum += i) {
+                System.out.printf("j = %d, sum = %d%n", i, sum);
+            }*/
 
         /*int i = 0;      //pętla while
         while (i<100) {
             System.out.println(i);
-            i++;
+            i++;                musimy inkrementować licznik, aby pętla nie była nieskończona
         }
 
         Pętla do while
@@ -105,11 +104,12 @@ public class Loops {
             i++;
         } while (i < 100);*/
 
+
         }
 
 
     }
-
+}
 
 
 
